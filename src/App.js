@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import photo from './guitar.jpg';
+import { Button } from "./components/component";
 
 function App() {
   return (
@@ -16,10 +17,10 @@ function App() {
             <p className="list">It helps me relax</p>
           <h4>Helpful resources</h4>
             <p className="list" >
-              <a className="App-link" href="https://en.wikipedia.org/wiki/Guitar" target="_blank">Wikipedia page</a>
+              <a href="https://en.wikipedia.org/wiki/Guitar" target="_blank"><Button label="Wikipedia page"></Button></a>
             </p>
             <p className="list">
-              <a className="App-link" href="https://www.fender.com/play" target="_blank">Fender online lessons</a>
+              <a href="https://www.fender.com/play" target="_blank"><Button label="Fender online lessons"></Button></a>
             </p>
         <p className="list"><a
           className="App-link"
