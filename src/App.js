@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>My Hobby: Playing the Guitar</h1>
+        <h1>Guitar</h1>
         <img src={photo} alt="photo not recognised" className="guitar"/>
         <p>I started playing the guitar when I was 16. It helps me with my singing exercies. It helps me relax. It's easy to start but requires a lot of work to continue.</p>
         <h4>Why do I like it?</h4>
