@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Components from "./Components.css"
 //useState
 //The following code won't udpate value on the website because although let counter will change with each click, the website won't refresh to reflect it
 // const StateTutorial = () => {
@@ -26,8 +27,9 @@ export const UseStateTutorial = () => {
 return (
     <div>
     {/*the counter doesn't rerender with each click */}
-      {counter}
-        <button onClick={increment}>Increment with useState</button>
+      <p className="counter">{counter}</p>
+        <button onClick={increment}>Increment number above with useState</button>
+        <p></p>
     </div>
 )
 
@@ -35,7 +37,7 @@ return (
 
 //here we want to grab the value of the input everytime there's a change. So it doesn't stay Agata
 export const InputState = () => {
-    const [inputValue, setInputValue] = useState("Agata");
+    const [inputValue, setInputValue] = useState("this text will change with your input");
 //onChange function has event as an argument by default, the event contains user input
     let onChange = (event) => {
         //we need to grab the value of the input
@@ -47,7 +49,7 @@ export const InputState = () => {
     return (
         <div>
         {/*we're calling onChange property which calls a function everytime there's change to value of the input */}
-            <input placeholder="enter something" onChange={onChange}/>{inputValue}
+            <input placeholder="useState on input" onChange={onChange}/><p>{inputValue}</p>
         </div>
     )
 
