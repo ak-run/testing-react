@@ -2,6 +2,7 @@ import './App.css';
 import { UseStateTutorial } from './components/UseStateHook';
 import { InputState } from './components/UseStateHook';
 import { ReducerTutorial } from './components/useReducerHook';
+import { EffectTutorial } from './components/UseEfectHook';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <UseStateTutorial></UseStateTutorial>
         <InputState></InputState>
         <ReducerTutorial></ReducerTutorial>
+        <EffectTutorial></EffectTutorial>
       </div>
     </div>
   );

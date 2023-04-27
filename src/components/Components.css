@@ -1,0 +1,17 @@
+*,
+**::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+}
+
+.counter {
+    font-size: 30px;
+    margin-bottom: none;
+    padding: none;
+}
+
+button {
+    margin-top: none;
+    padding: none;
+}
